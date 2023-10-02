@@ -1,0 +1,209 @@
+/*Font from Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap');
+
+/*Border-Box for correct layout*/
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*Desktop*/
+@media (width >=480px) {
+    h1 {
+        margin-top: 0px;
+        margin-bottom: 1vw;
+        font-size: 5rem;
+        color: rgba(255, 255, 255, 1);
+        -webkit-text-stroke: 2px black;
+    }
+
+    h2 {
+        margin-top: 0px;
+        font-size: 2.5rem;
+        color: rgba(255, 255, 255, 1);
+        -webkit-text-stroke: 1.5px black;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+        color: rgba(255, 255, 255, 1);
+        -webkit-text-stroke: 1.5px black;
+    }
+
+    h4 {
+        margin: 5px;
+        font-size: 1.2rem;
+        color: rgba(0, 0, 0, 1);
+    }
+
+    p {
+        font-size: 1.2rem;
+        color: rgba(0, 0, 0, 1);
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        padding: 2vw;
+        background-color: rgba(160, 171, 192, 1);
+        border-bottom: solid;
+        border-width: 3px;
+        border-color: rgb(0, 0, 0);
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .navImage {
+        width: 5vw;
+        height: 5vh;
+    }
+
+    a {
+        padding: 10px;
+        text-decoration: none;
+        border: solid;
+        border-radius: 10px;
+        border-color: rgba(255, 255, 255, 1);
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(0, 0, 0, 1);
+    }
+
+    a:hover {
+        padding: 10px;
+        text-decoration: none;
+        border: solid;
+        border-radius: 10px;
+        border-color: rgba(0, 0, 0, 1);
+        color: rgba(0, 0, 0, 1);
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    .navLink {
+        margin-left: 75vw;
+        margin-top: 0.5vw;
+    }
+
+    header {
+        background-image: url(../images/ROGALLY2.webp);
+        width: 98, 5vw;
+        height: 100vh;
+        border-bottom: solid;
+        border-width: 3px;
+        border-color: rgba(0, 0, 0, 1);
+    }
+
+    .headerContents {
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+        padding-top: 18vh;
+    }
+
+    .headerLinks {
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+        padding-top: 52vh;
+    }
+
+    .orderButton {
+        padding: 20px;
+        text-decoration: none;
+        border: solid;
+        border-radius: 20px;
+        border-color: rgba(255, 255, 255, 1);
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(0, 0, 0, 1);
+    }
+
+
+    .orderButton:hover {
+        padding: 20px;
+        text-decoration: none;
+        border: solid;
+        border-radius: 20px;
+        border-color: rgba(0, 0, 0, 1);
+        color: rgba(0, 0, 0, 1);
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    .subheading {
+        background-color: rgba(160, 171, 192, 1);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-bottom: solid;
+        border-width: 3px;
+        border-color: rgb(0, 0, 0);
+    }
+
+    .productCards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 8vw;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        border: solid;
+        border-width: 2px;
+        border-color: rgba(0, 0, 0, 1);
+        border-radius: 5px;
+        background-color: rgba(206, 211, 220, 1);
+    }
+
+    .card:hover {
+        display: flex;
+        flex-direction: column;
+        border: solid;
+        border-width: 2px;
+        border-color: rgba(0, 0, 0, 1);
+        border-radius: 5px;
+        background-color: rgba(206, 211, 220, 1);
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+
+    }
+
+    .relatedImage {
+        width: 15vw;
+        height: 15vw;
+        padding: 1vw;
+        margin: 1vw;
+        border: solid;
+        border-width: 3px;
+        border-color: rgba(0, 0, 0, 1);
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    .stars {
+        width: 7.5vw;
+        align-self: center;
+    }
+
+    .relatedOrder {
+        margin: 20px;
+        text-decoration: none;
+        border: solid;
+        border-radius: 20px;
+        border-color: rgba(0, 0, 0, 1);
+        color: rgba(0, 0, 0, 1);
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    .relatedOrder:hover {
+        margin: 20px;
+        text-decoration: none;
+        border: solid;
+        border-radius: 20px;
+        border-color: rgba(255, 255, 255, 1);
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(0, 0, 0, 1);
+    }
+}
+
+/*Mobile*/
+@media (width <=480px) {}
