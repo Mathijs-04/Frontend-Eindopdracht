@@ -69,17 +69,86 @@
         </section>
 
         <section class="form" id="contact">
-            <h3>Form</h3>
-            <form action=""></form>
+            <h3 class="formTitle">Form</h3>
+            <div class="completeForm">
+                <form action="">
+                    <div class="firstRow">
+                        <div class="input">
+                            <label for="firstname">First Name</label>
+                            <input required type="text" placeholder="First Name" class="inputbox">
+                        </div>
+                        <div class="input" id="secondBlock">
+                            <label for="lastname">Last Name</label>
+                            <input required type="text" placeholder="Last Name" class="inputbox">
+                        </div>
+                    </div>
+                    <div class="secondRow">
+                        <div class="input">
+                            <label for="email">Email</label>
+                            <input required type="email" id="email" class="email" placeholder="Email" name="email"
+                                class="inputbox">
+                        </div>
+                    </div>
+                    <div class="thirdRow">
+                        <div class="input">
+                            <label for="place">Place</label>
+                            <input required type="text" placeholder="Place">
+                        </div>
+                        <div class="input" id="secondBlock">
+                            <label for="date">Date of Birth</label>
+                            <input required type="date" id="date" name="date">
+                        </div>
+                    </div>
+                    <div class="fourthRow">
+                        <label for="topic">Subject</label>
+                        <select required id="subject" name="subject" class="subject">
+                            <option value="" disabled selected>Choose the subject of your message...</option>
+                            <option value="question">Question</option>
+                            <option value="complaint">Complaint</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="fifthRow">
+                        <label for="message">Message</label>
+                        <input required type="text" name="message" id="message" placeholder="Message" class="message">
+                    </div>
+                    <div class="sixthRow">
+                        <p class="subscribe">Subscribe to newsletter?</p>
+                        <input required type="radio" id="subscribe" class="subscribe" name="subscribe" value="yes">
+                        <label for="yes">Yes</label>
+                        <input required type="radio" id="subject" name="subscribe" value="no">
+                        <label for="no">No</label>
+                    </div>
+                    <div class="seventhRow">
+                        <input required type="checkbox" id="terms" class="terms" name="terms" value="terms">
+                        <label for="terms">I agree to the terms and conditions</label>
+                    </div>
+                    <div>
+                        <button type="submit" class="submitButton">Submit</button>
+                    </div>
+                </form>
+            </div>
         </section>
 
         <footer>
-            <img src="" alt="">
-            <p>Copyright 2023 bedrijfsnaam</p>
-            <a href="#">Privacyverklaring</a>
-            <a href="#">Algemene voorwaarden</a>
-            <a href="#">Cookiebeleid</a>
-            <a href="#">Contact</a>
+            <section class="footerLeft">
+                <div class="footerImage">
+                    <img src="./images/LOGO2.webp" alt="logo">
+                </div>
+                <p>Copyright 2023 ASUS</p>
+                <div class="footerLogo">
+                    <img src="./images/INSTAGRAM.webp" alt="instagram" class="footerLogoImage">
+                    <img src="./images/FACEBOOK.webp" alt="facebook" class="footerLogoImage">
+                    <img src="./images/TWITTER.webp" alt="twitter" class="footerLogoImage">
+                </div>
+            </section>
+            <section class="footerRight">
+                <a href="#" id="footerLink">Privacy Statement</a>
+                <a href="#" id="footerLink">Terms and Conditions</a>
+                <a href="#" id="footerLink">Cookie Policy</a>
+                <a href="#" id="footerLink">Contact</a>
+            </section>
         </footer>
 
     </main>
