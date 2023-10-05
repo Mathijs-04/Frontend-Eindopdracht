@@ -9,8 +9,12 @@
 
 /*Desktop*/
 @media (width >=480px) {
+    body {
+        background-color: rgba(45, 54, 72, 1);
+    }
+
     h1 {
-        margin-top: 0px;
+        margin-top: 0;
         margin-bottom: 1vw;
         font-size: 5rem;
         color: rgba(255, 255, 255, 1);
@@ -18,20 +22,22 @@
     }
 
     h2 {
-        margin-top: 0px;
+        margin-top: 0;
         font-size: 2.5rem;
         color: rgba(255, 255, 255, 1);
         -webkit-text-stroke: 1.5px black;
     }
 
     h3 {
+        margin-top: 0;
+        padding-top: 1vw;
         font-size: 2.5rem;
         color: rgba(255, 255, 255, 1);
         -webkit-text-stroke: 1.5px black;
     }
 
     h4 {
-        margin: 5px;
+        margin: 1vw;
         font-size: 1.2rem;
         color: rgba(0, 0, 0, 1);
     }
@@ -47,7 +53,7 @@
         padding: 2vw;
         background-color: rgba(160, 171, 192, 1);
         border-bottom: solid;
-        border-width: 3px;
+        border-width: 0.5vh;
         border-color: rgb(0, 0, 0);
     }
 
@@ -62,36 +68,38 @@
     }
 
     a {
-        padding: 10px;
+        padding: 0.75vw;
         text-decoration: none;
         border: solid;
-        border-radius: 10px;
+        border-radius: 0.5vw;
         border-color: rgba(255, 255, 255, 1);
         color: rgba(255, 255, 255, 1);
         background-color: rgba(0, 0, 0, 1);
+        transition: all 0.2s ease-out;
     }
 
     a:hover {
-        padding: 10px;
+        padding: 0.75vw;
         text-decoration: none;
         border: solid;
-        border-radius: 10px;
+        border-radius: 0.5vw;
         border-color: rgba(0, 0, 0, 1);
         color: rgba(0, 0, 0, 1);
         background-color: rgba(255, 255, 255, 1);
     }
 
     .navLink {
-        margin-left: 75vw;
+        margin-left: 70vw;
         margin-top: 0.5vw;
     }
 
     header {
         background-image: url(../images/ROGALLY2.webp);
-        width: 98, 5vw;
-        height: 100vh;
+        background-size: 100% auto;
+        width: 98.3vw;
+        height: 98.3vh;
         border-bottom: solid;
-        border-width: 3px;
+        border-width: 0.5vh;
         border-color: rgba(0, 0, 0, 1);
     }
 
@@ -108,34 +116,35 @@
     }
 
     .orderButton {
-        padding: 20px;
+        padding: 1vw;
         text-decoration: none;
         border: solid;
-        border-radius: 20px;
+        border-radius: 1vw;
         border-color: rgba(255, 255, 255, 1);
         color: rgba(255, 255, 255, 1);
         background-color: rgba(0, 0, 0, 1);
     }
 
-
     .orderButton:hover {
-        padding: 20px;
+        padding: 1vw;
         text-decoration: none;
         border: solid;
-        border-radius: 20px;
+        border-radius: 1vw;
         border-color: rgba(0, 0, 0, 1);
         color: rgba(0, 0, 0, 1);
         background-color: rgba(255, 255, 255, 1);
     }
 
     .subheading {
-        background-color: rgba(160, 171, 192, 1);
+        background-color: rgba(206, 211, 220, 1);
         display: flex;
         flex-direction: column;
         text-align: center;
         border-bottom: solid;
-        border-width: 3px;
+        border-width: 0.5vh;
         border-color: rgb(0, 0, 0);
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
 
     .productCards {
@@ -149,22 +158,23 @@
         display: flex;
         flex-direction: column;
         border: solid;
-        border-width: 2px;
+        border-width: 0.2vw;
         border-color: rgba(0, 0, 0, 1);
-        border-radius: 5px;
-        background-color: rgba(206, 211, 220, 1);
+        border-radius: 1vw;
+        background-color: rgba(160, 171, 192, 1);
+        transition: all 0.1s ease-out;
     }
 
     .card:hover {
         display: flex;
         flex-direction: column;
         border: solid;
-        border-width: 2px;
+        border-width: 0.2vw;
         border-color: rgba(0, 0, 0, 1);
-        border-radius: 5px;
-        background-color: rgba(206, 211, 220, 1);
+        border-radius: 1vw;
+        background-color: rgba(160, 171, 192, 1);
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-
+        transform: scale(1.15);
     }
 
     .relatedImage {
@@ -173,9 +183,9 @@
         padding: 1vw;
         margin: 1vw;
         border: solid;
-        border-width: 3px;
+        border-width: 0.2vw;
         border-color: rgba(0, 0, 0, 1);
-        border-radius: 10px;
+        border-radius: 1vw;
         background-color: rgba(255, 255, 255, 1);
     }
 
@@ -185,24 +195,190 @@
     }
 
     .relatedOrder {
-        margin: 20px;
+        margin: 1vw;
         text-decoration: none;
         border: solid;
-        border-radius: 20px;
+        border-radius: 1vw;
         border-color: rgba(0, 0, 0, 1);
         color: rgba(0, 0, 0, 1);
         background-color: rgba(255, 255, 255, 1);
     }
 
     .relatedOrder:hover {
-        margin: 20px;
+        margin: 1vw;
         text-decoration: none;
         border: solid;
-        border-radius: 20px;
+        border-radius: 1vw;
         border-color: rgba(255, 255, 255, 1);
         color: rgba(255, 255, 255, 1);
         background-color: rgba(0, 0, 0, 1);
     }
+
+    .form {
+        margin-top: 0;
+        background-color: rgba(160, 171, 192, 1);
+    }
+
+    footer {
+        background-color: rgba(45, 54, 72, 1);
+    }
+
+    .footerImage {
+        width: 5vw;
+        height: 5vh;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        margin-left: 40%;
+    }
+
+    .form {
+        background-color: rgba(160, 171, 192, 1);
+        padding-bottom: 5vh;
+    }
+
+    .completeForm {
+        align-items: center;
+    }
+
+
+    .formTitle {
+        text-align: center;
+    }
+
+    .input {
+        display: flex;
+        flex-direction: column;
+        width: 9vw;
+    }
+
+    #secondBlock {
+        margin-left: 2vw;
+    }
+
+    .email {
+        width: 20vw;
+    }
+
+    .subject {
+        width: 20vw;
+    }
+
+    .message {
+        width: 20vw;
+    }
+
+    .subscribe {
+        margin: 0;
+        padding-bottom: 0.2vh;
+    }
+
+    .terms {
+        margin-left: 0;
+    }
+
+    .firstRow {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 1vh;
+    }
+
+    .secondRow {
+        padding-bottom: 1vh;
+    }
+
+    .thirdRow {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 1vh;
+    }
+
+    .fourthRow {
+        padding-bottom: 1vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fifthRow {
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1vh;
+    }
+
+    .sixthRow {
+        padding-bottom: 1vh;
+    }
+
+    .seventhRow {
+        padding-bottom: 1vh;
+    }
+
+    .submitButton {
+        background-color: rgba(45, 54, 72, 1);
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 1);
+        border-width: 0.2vw;
+        border-radius: 0.2vw;
+        padding: 0.2vw;
+        width: 20vw;
+        transition: all 0.1s ease-out;
+    }
+
+    .submitButton:hover {
+        background-color: rgba(45, 54, 72, 1);
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 1);
+        border-width: 0.2vw;
+        border-radius: 0.2vw;
+        padding: 0.2vw;
+        width: 20vw;
+        transform: scale(1.05);
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3vh;
+        margin-left: 1vw;
+    }
+
+    .footerLeft {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerRight {
+        margin-top: 7vh;
+        margin-left: 60vw;
+    }
+
+    #footerLink {
+        background-color: transparent;
+        color: rgba(0, 0, 0, 1);
+        border: 0;
+    }
+
+    #footerLink:hover {
+        background-color: transparent;
+        color: rgba(0, 0, 0, 1);
+        border: 0;
+        text-decoration: underline;
+    }
+
+    .footerLogo {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footerLogoImage {
+        width: 2vw;
+        padding: 0.2vw;
+    }
+
 }
 
 /*Mobile*/
