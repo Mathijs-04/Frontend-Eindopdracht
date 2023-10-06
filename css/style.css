@@ -106,7 +106,7 @@
     .headerContents {
         color: rgba(255, 255, 255, 1);
         text-align: center;
-        padding-top: 18vh;
+        padding-top: 15vh;
     }
 
     .headerLinks {
@@ -116,7 +116,8 @@
     }
 
     .orderButton {
-        padding: 1vw;
+        padding: 1.5vw;
+        font-size: 1.5rem;
         text-decoration: none;
         border: solid;
         border-radius: 1vw;
@@ -126,7 +127,8 @@
     }
 
     .orderButton:hover {
-        padding: 1vw;
+        padding: 1.5vw;
+        font-size: 1.5rem;
         text-decoration: none;
         border: solid;
         border-radius: 1vw;
@@ -217,15 +219,6 @@
     .form {
         margin-top: 0;
         background-color: rgba(160, 171, 192, 1);
-    }
-
-    footer {
-        background-color: rgba(45, 54, 72, 1);
-    }
-
-    .footerImage {
-        width: 5vw;
-        height: 5vh;
     }
 
     form {
@@ -346,6 +339,12 @@
         flex-direction: row;
         margin-top: 3vh;
         margin-left: 1vw;
+        background-color: rgba(45, 54, 72, 1);
+    }
+
+    .footerImage {
+        width: 5vw;
+        height: 5vh;
     }
 
     .footerLeft {
@@ -355,7 +354,7 @@
 
     .footerRight {
         margin-top: 7vh;
-        margin-left: 60vw;
+        margin-left: 55vw;
     }
 
     #footerLink {
@@ -480,9 +479,9 @@
 
     header {
         background-image: url(../images/ROGALLY2.webp);
-        background-size: 100% auto;
-        width: 95.8vw;
-        height: 23vh;
+        background-size: cover;
+        background-position: center;
+        height: 40vh;
         border-bottom: solid;
         border-width: 0.3vh;
         border-color: rgba(0, 0, 0, 1);
@@ -491,18 +490,18 @@
     .headerContents {
         color: rgba(255, 255, 255, 1);
         text-align: center;
-        padding-top: 0.2vh;
+        padding-top: 3.5vh;
     }
 
     .headerLinks {
         color: rgba(255, 255, 255, 1);
         text-align: center;
-        margin-top: 12.8vh;
+        margin-top: 22.5vh;
     }
 
     .orderButton {
-        padding: 1vw;
-        font-size: 0.8rem;
+        padding: 1.5vw;
+        font-size: 1rem;
         text-decoration: none;
         border: solid;
         border-width: 0.5vw;
@@ -513,8 +512,8 @@
     }
 
     .orderButton:hover {
-        padding: 1vw;
-        font-size: 0.8rem;
+        padding: 1.5vw;
+        font-size: 1rem;
         text-decoration: none;
         border: solid;
         border-width: 0.5vw;
@@ -623,31 +622,17 @@
         background-color: rgba(160, 171, 192, 1);
     }
 
-    footer {
-        background-color: rgba(45, 54, 72, 1);
-    }
-
-    .footerImage {
-        width: 5vw;
-        height: 5vh;
-    }
 
     form {
         display: flex;
         flex-direction: column;
-        align-items: left;
-        margin-left: 40%;
+        align-items: center;
     }
 
     .form {
         background-color: rgba(160, 171, 192, 1);
         padding-bottom: 5vh;
     }
-
-    .completeForm {
-        align-items: center;
-    }
-
 
     .formTitle {
         text-align: center;
@@ -656,23 +641,19 @@
     .input {
         display: flex;
         flex-direction: column;
-        width: 9vw;
-    }
-
-    #secondBlock {
-        margin-left: 2vw;
+        width: 80vw;
     }
 
     .email {
-        width: 20vw;
+        width: 80vw;
     }
 
     .subject {
-        width: 20vw;
+        width: 80vw;
     }
 
     .message {
-        width: 20vw;
+        width: 80vw;
         height: 10vh;
         resize: none;
     }
@@ -688,7 +669,7 @@
 
     .firstRow {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         padding-bottom: 1vh;
     }
 
@@ -698,7 +679,7 @@
 
     .thirdRow {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         padding-bottom: 1vh;
     }
 
@@ -716,10 +697,12 @@
     }
 
     .sixthRow {
+        margin-left: -35vw;
         padding-bottom: 1vh;
     }
 
     .seventhRow {
+        margin-left: -22.5vw;
         padding-bottom: 1vh;
     }
 
@@ -727,10 +710,10 @@
         background-color: rgba(45, 54, 72, 1);
         border-style: solid;
         border-color: rgba(0, 0, 0, 1);
-        border-width: 0.2vw;
-        border-radius: 0.2vw;
-        padding: 0.2vw;
-        width: 20vw;
+        border-width: 0.6vw;
+        border-radius: 1.2vw;
+        padding: 1vw;
+        width: 80vw;
         transition: all 0.1s ease-out;
     }
 
@@ -738,10 +721,10 @@
         background-color: rgba(45, 54, 72, 1);
         border-style: solid;
         border-color: rgba(0, 0, 0, 1);
-        border-width: 0.2vw;
-        border-radius: 0.2vw;
-        padding: 0.2vw;
-        width: 20vw;
+        border-width: 0.6vw;
+        border-radius: 1.2vw;
+        padding: 1vw;
+        width: 80vw;
         transform: scale(1.05);
     }
 
@@ -750,16 +733,28 @@
         flex-direction: row;
         margin-top: 3vh;
         margin-left: 1vw;
+        background-color: rgba(45, 54, 72, 1);
+    }
+
+    .footerImage {
+        width: 25vw;
+        height: 6vh;
+    }
+
+    #copyright {
+        margin: 1vh 1vw 1vh 0;
     }
 
     .footerLeft {
         display: flex;
         flex-direction: column;
+        margin-left: 2vw;
     }
 
     .footerRight {
-        margin-top: 7vh;
-        margin-left: 60vw;
+        display: flex;
+        flex-direction: column;
+        margin-left: 15vw;
     }
 
     #footerLink {
@@ -781,7 +776,7 @@
     }
 
     .footerLogoImage {
-        width: 2vw;
+        width: 8vw;
         padding: 0.2vw;
     }
 
