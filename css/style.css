@@ -219,6 +219,7 @@
     .form {
         margin-top: 0;
         background-color: rgba(160, 171, 192, 1);
+        padding-bottom: 5vh;
     }
 
     form {
@@ -227,12 +228,7 @@
         align-items: left;
         margin-left: 40%;
     }
-
-    .form {
-        background-color: rgba(160, 171, 192, 1);
-        padding-bottom: 5vh;
-    }
-
+    
     .completeForm {
         align-items: center;
     }
