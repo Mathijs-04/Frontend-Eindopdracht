@@ -684,6 +684,10 @@
         margin-left: 0;
     }
 
+    #secondBlock {
+        padding-top: 1vh;
+    }
+
     .firstRow {
         display: flex;
         flex-direction: column;
